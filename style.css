@@ -34,3 +34,13 @@ h6 {
 #more {
     display:none
 }
+.red {
+    color: #ff6161;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 10cm);
+    grid-template-rows: auto;
+    grid-gap: 4cm;
+    margin: 1cm;
+}
