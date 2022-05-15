@@ -42,8 +42,9 @@ h6 {
 }
 .grid {
     display: grid;
-    justify-content: space-evenly;
-    grid-template-columns: repeat(3, 10cm);
-    grid-template-rows: auto;
-    grid-gap: auto;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 20px;
+}
+body {
+    margin-top: 1cm;
 }
