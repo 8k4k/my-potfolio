@@ -10,8 +10,8 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light redi">
+        <div class="container-fluid redi">
           <a class="navbar-brand" href="#">Ömer Aydın</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -46,23 +46,25 @@
 
 
       <section id="main">
+          <div class="right">
+              <p class="big">Hello</p>
+              <p class="im">I'm <span class="name">Ömer Aydın</span>
+              </p>
+          </div>
           <div class="left">
               <h1 class="red">
                   About
               </h1>
-              <p>
-                  I'm 11 years old. I am interested in coding. I know html, css and a little bit javascript. As languages i know English, Turkish and i can only talk Arabic.
-                  I live in Turkey. I'm beginner in coding.
+              <p class="white">
                   <span id="dots">...</span><span id="more">
+                    I'm 11 years old. I am interested in coding. I know html, css and a little bit javascript. As languages i know English, Turkish and i can only talk Arabic.
+                    I live in Turkey. I'm beginner in coding.
                        I don't have a job contact me on: 537 285 47 91 for job.
                        As hobbies i like playing with xbox, coding and playing basketball.
                   </span>
-              </p><button class="btn bg-primary text-white" onclick="myFunction()" id="myBtn">Read more</button>
-          </div>
-          <div class="right">
-              <p class="big">Hello</p>
-              <p class="im">I'm</p>
-              <p class="name">Ömer Aydın</p>
+                  <br><br>
+                  <button class="btn btn-trimary text-white" onclick="myFunction()" id="myBtn">Read</button>
+              </p>
           </div>
       </section>
 
@@ -71,62 +73,62 @@
 
 
       <section class="p-5">
-          <h1>Projects</h1>
+          <h1 class="red p-5">Projects</h1>
           <div class="grid">
         <div class="card text-center" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">Calculator</h5>
               <p class="card-text">Fully functional Calculator.</p>
-              <a href="https://github.com/8k4k/calc-scratch.git" class="btn btn-primary">Go to project</a>
+              <a href="https://github.com/8k4k/calc-scratch.git" class="btn btn-brimary">Go to project</a>
             </div>
           </div>
           <div class="card text-center" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">Task List</h5>
               <p class="card-text">Fully functional Task list.</p>
-              <a href="https://github.com/8k4k/task-list.git" class="btn btn-primary">Go to project</a>
+              <a href="https://github.com/8k4k/task-list.git" class="btn btn-brimary">Go to project</a>
             </div>
           </div>
           <div class="card text-center" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">Portfolio</h5>
               <p class="card-text">This project</p>
-              <a href="#" class="btn btn-danger disabled">Go to project</a>
+              <a href="#" class="btn btn-brimary disabled">Go to project</a>
             </div>
           </div>
           <div class="card text-center" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">New Project</h5>
               <p class="card-text"> Coming Soon.</p>
-              <a href="#" class="btn btn-secondary disabled">Go to project</a>
+              <a href="#" class="btn btn-brimary disabled">Go to project</a>
             </div>
           </div>
           <div class="card text-center" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">New Project</h5>
               <p class="card-text"> Coming Soon.</p>
-              <a href="#" class="btn btn-secondary disabled">Go to project</a>
+              <a href="#" class="btn btn-brimary disabled">Go to project</a>
             </div>
           </div>
           <div class="card text-center" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">New Project</h5>
               <p class="card-text"> Coming Soon.</p>
-              <a href="#" class="btn btn-secondary disabled">Go to project</a>
+              <a href="#" class="btn btn-brimary disabled">Go to project</a>
             </div>
           </div>
           <div class="card text-center" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">New Project</h5>
               <p class="card-text"> Coming Soon.</p>
-              <a href="#" class="btn btn-secondary disabled">Go to project</a>
+              <a href="#" class="btn btn-brimary disabled">Go to project</a>
             </div>
           </div>
           <div class="card text-center" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">New Project</h5>
               <p class="card-text"> Coming Soon.</p>
-              <a href="#" class="btn btn-secondary disabled">Go to project</a>
+              <a href="#" class="btn btn-brimary disabled">Go to project</a>
             </div>
           </div>
       </div>
@@ -144,12 +146,12 @@
         
           if (dots.style.display === "none") {
             dots.style.display = "inline";
-            btnText.innerHTML = "Read more"; 
+            btnText.innerHTML = "Read"; 
             moreText.style.display = "none";
           } 
           else {
             dots.style.display = "none";
-            btnText.innerHTML = "Read less"; 
+            btnText.innerHTML = "Close"; 
             moreText.style.display = "inline";
           }
         }

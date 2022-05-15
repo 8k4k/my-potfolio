@@ -1,16 +1,17 @@
 .big {
-    font-size: 3cm ;
-    color: #70d8e8;
-    margin-bottom: 2px;
+    font-size: 1cm ;
+    color: #db8cff;
+    margin-top: 2cm;
+    text-align: center;
 }
 .im {
-    font-size: 50px;
-    margin: 0px;
+    font-size: 2cm;
+    color: #db8cff;
 }
 .name {
-    font-size: 3cm;
-    color: #ff6161;
-    margin-top: 2px;
+    font-size: 2cm;
+    color: #fff;
+    margin-top: 0px;
 }
 p,
 h1,
@@ -25,7 +26,7 @@ h6 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
-    /* background: linear-gradient(to bottom , #b92b27, #1565C0 ); */
+    background: linear-gradient(to right , #41295a, #2F0743 );
 }
 .right {
     grid-column: span 3;
@@ -38,7 +39,7 @@ h6 {
     display:none
 }
 .red {
-    color: #ff6161;
+    color: #db8cff;
 }
 .grid {
     display: grid;
@@ -47,4 +48,21 @@ h6 {
 }
 body {
     margin-top: 1cm;
+    background: linear-gradient(to right , #41295a, #2F0743 );
+}
+.white {
+    color: #fff;
+}
+.card{
+    background-color: #db8cff; 
+}
+.btn-brimary {
+    background-color: #2F0743;
+    color: #fff;
+}
+.btn-trimary {
+    background-color: #db8cff; 
+}
+.redi {
+    background-color: #c775ec;
 }
